@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mian_back">
+
+    <TextView
+        android:id="@+id/send"
+        android:layout_width="302dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/send_back"
+        android:text="CHECK"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#800517"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
